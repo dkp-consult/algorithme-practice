@@ -29,22 +29,24 @@ Constraints:
 2 <= nums.length <= 104
 -109 <= nums[i] <= 109 */
 
-const nums = [2,7,11,15];
+const nums = [2, 7, 11, 15];
 const target = 9;
 
-var twoSum = function(nums, target) {
+var twoSum = function (nums, target) {
+  var answer = [];
+  for (i = 0; i < nums.length; i++) {
+    var diff = target - nums[i];
     
-    for(i = 0; i < nums.length; i++){
-        var diff = target - nums[0];
-        if (diff = nums[i]) {
-            console.log("works")
-        }
+    var added = nums[i + 1];
+    if (diff === added) {
+      answer.push(nums[i], added);
+      return answer;
+    } else {
+      i++;
     }
-
-
+  }
 };
-
-
+console.log(twoSum([2, 7, 11, 15], 9));
 
 // Diff methode : soustraire la valeur 0 issue de nums au target
 // Vérifier si le reste stocké dans une variable correspond à un élément de nums
