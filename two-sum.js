@@ -35,18 +35,17 @@ const target = 9;
 var twoSum = function (nums, target) {
   var answer = [];
   for (i = 0; i < nums.length; i++) {
-    var diff = target - nums[i];
-    
-    var added = nums[i + 1];
-    if (diff === added) {
-      answer.push(nums[i], added);
-      return answer;
-    } else {
-      i++;
+    var firstIndex = nums[i];
+    for (j = i + 1; j < nums.length; j++) {
+      var secondIndex = nums[j];
+      if (firstIndex + secondIndex === target) {
+        answer.push(i, j);
+        return answer;
+      }
     }
   }
 };
-console.log(twoSum([2, 7, 11, 15], 9));
+console.log(twoSum([3, 2, 4], 6));
 
 // Diff methode : soustraire la valeur 0 issue de nums au target
 // Vérifier si le reste stocké dans une variable correspond à un élément de nums
