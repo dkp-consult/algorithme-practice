@@ -1,4 +1,4 @@
-// LeetCode challenge : https://leetcode.com/problems/number-of-days-between-two-dates/
+// LeetCode challenge 1 : https://leetcode.com/problems/number-of-days-between-two-dates/
 
 var daysBetweenDates = function(date1, date2) {
     var dateOne = new Date(date1).getTime();

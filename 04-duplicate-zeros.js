@@ -1,4 +1,4 @@
-// LeetCode challenge : https://leetcode.com/problems/duplicate-zeros/
+// LeetCode challenge 4: https://leetcode.com/problems/duplicate-zeros/
 
 var duplicateZeros = function(arr) {
     var toFind = 0;

@@ -1,4 +1,4 @@
-// LeetCode challenge : https://leetcode.com/problems/largest-substring-between-two-equal-characters/
+// LeetCode challenge 3 : https://leetcode.com/problems/largest-substring-between-two-equal-characters/
 
 var maxLengthBetweenEqualCharacters = function(s) {
     let n = s.length;

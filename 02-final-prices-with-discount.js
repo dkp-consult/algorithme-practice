@@ -1,4 +1,4 @@
-// LeetCode challenge : https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
+// LeetCode challenge 2 : https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
 
 var finalPrices = function(prices) {
     const result = [];
