@@ -1,11 +1,14 @@
 // LeetCode challenge 11 : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-var maxProfit = function(prices) {
+//EZ soluce : https://relatablecode.com/javascript-leetcode-best-time-to-buy-and-sell-stock 
 
-};
+// Actually failed this challenge. My method : 
 
-// classer les éléments par ordre croisant, choisir le plus faible et l'enrigistrer dans une variable et le plus haut pour le jour de vente
-// voir quand la variable apparait et acheter 
-// vérifier si l'index faible est avant l'index fort
-// si non, ne rien faire
+/* 
+    1) Find the small & high value and create var for her
+    2) Check for find the index of small & high value and create a var => Fail
+    3) Check if seelIndex > buyIndex 
+        In this case, calcul the diff between the two value & return him
+        
+*/
 
