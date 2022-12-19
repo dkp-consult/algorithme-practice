@@ -12,3 +12,21 @@
         
 */
 
+/* 
+    const = maxProfit = function(prices) {
+        let max = 0;
+        let buy = prices[0];
+
+        for (let i = 1; i < prices.length; i++){
+            const sell = prices[i];
+            // if selling at this point is a loss then try buying at that point in time
+            if (sell - buy < 0){
+                buy = sell;
+            } else {
+                // if we have possible profit then see if it's the most profit
+                max = Math.max(max, sell - buy)
+            }
+        };
+        return max;
+    };
+*/
