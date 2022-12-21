@@ -2,29 +2,24 @@
 
 var findWords = function(words) {
 
-    // Init row variables
-    var row1 = "qwertyuiop".split('');
-    var row2 = "asdfghjkl".split('');
-    var row3 = "zxcvbnm".split('');
+    // Lettre par niveau 
+    const keyB = ['qwertyuiop', 'asdfghjkl', 'zxcvbnm'];
 
-    var answer = [];
+    // Vérification pour chaque mots: 
 
-    // Transform word to array
-    var wordToArray = words[0].split('');
-    
-    // Test an idea
-    for (i = 0; i < words.length ; i++) {
-        var oneWord = words[i].split('');
-        for (j = 0; j < oneWord.length; j++) {
-            if (oneWord[j].includes(row2)) {
-                answer = 'yes'
-                console.log(answer)
+    let found = false;
+    let results = [];
+
+    keyB.forEach( (sequence) => {
+        words.forEach((word) => {
+            found = word.toLowerCase().split('').every(letter => sequence.includes(letter))
+
+            if (found) {
+                results.push(word)
             }
-        }
-    }
-    
-    
-    console.log(answer)
+        })
+    })
+    return results;
 };
 
 findWords(["Hello","Alaska","Dad","Peace"])
