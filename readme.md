@@ -22,7 +22,7 @@ Each platform from which challenges are sourced is represented by a separate dir
 
 ## GPT's formatting
 
-I use ChatGPT for formatting readme.md, data.js and test.js, you can acces to this GPT's [here](), for giving the data to him, use this format : 
+I use ChatGPT for formatting readme.md, data.js and test.js, you can acces to this GPT's [here](https://chatgpt.com/g/g-68v9RmP15-algorithmes-challenge-formater), for giving the data to him, use this format : 
 
 - Challenge name : 
 - Challenge url : 
