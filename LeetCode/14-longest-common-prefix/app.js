@@ -1,5 +1,3 @@
-// LeetCode challenge 8 : https://leetcode.com/problems/longest-common-prefix/
-
 var app = function(strs) {
     // check if input wasn't empty
     if (!strs || strs.length === 0) return "";

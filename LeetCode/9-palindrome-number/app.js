@@ -1,5 +1,3 @@
-// LeetCode challenge 7: https://leetcode.com/problems/palindrome-number/
-
 var app = function(x) {
     var xArray = x.toString().split('');
     var xArrayReverse = xArray.reverse();

@@ -29,3 +29,5 @@ I use ChatGPT for formatting readme.md, data.js and test.js, you can acces to th
 - Challenge description : 
 
 The output was code zone with all the information, you juste need to copy & past before working on solution. 
+
+NB : You can use GPT for solve the problems, but it's better for you to learn and try to solve it.
