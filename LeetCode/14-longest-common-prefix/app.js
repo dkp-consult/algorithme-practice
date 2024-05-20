@@ -1,6 +1,6 @@
 // LeetCode challenge 8 : https://leetcode.com/problems/longest-common-prefix/
 
-var longestCommonPrefix = function(strs) {
+var app = function(strs) {
     // check if input wasn't empty
     if (!strs || strs.length === 0) return "";
 
@@ -19,6 +19,8 @@ var longestCommonPrefix = function(strs) {
     }
     return shortestString;
 };
+
+module.exports = app ; 
 
 // Looks like 03-largest-substing but not exactly the same method
 // explaination : https://www.linkedin.com/pulse/find-longest-common-prefix-array-strings-javascript-bradshaw

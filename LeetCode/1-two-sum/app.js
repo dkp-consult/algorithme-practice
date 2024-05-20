@@ -1,9 +1,7 @@
-// LeetCode challenge 5: https://leetcode.com/problems/two-sum/
+// const nums = [2, 7, 11, 15];
+// const target = 9;
 
-const nums = [2, 7, 11, 15];
-const target = 9;
-
-var twoSum = function (nums, target) {
+var app = function (nums, target) {
   var answer = [];
   for (i = 0; i < nums.length; i++) {
     var firstIndex = nums[i];
@@ -16,7 +14,9 @@ var twoSum = function (nums, target) {
     }
   }
 };
-console.log(twoSum([3, 2, 4], 6));
+
+module.exports = app ; 
+console.log(app([3, 2, 4], 6));
 
 // Diff methode : soustraire la valeur 0 issue de nums au target
 // Vérifier si le reste stocké dans une variable correspond à un élément de nums

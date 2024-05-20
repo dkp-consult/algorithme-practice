@@ -1,6 +1,4 @@
-// LeetCode challenge 3 : https://leetcode.com/problems/largest-substring-between-two-equal-characters/
-
-var maxLengthBetweenEqualCharacters = function(s) {
+var app = function(s) {
     let n = s.length;
     let res = -1;
 
@@ -10,6 +8,8 @@ var maxLengthBetweenEqualCharacters = function(s) {
                 res = Math.max(res, Math.abs(j - i -1));
     return res;
 };
+
+module.exports = app ; 
 
 // Lister les charactères présents => Mapper les caractères et les comparer entre eux
 // Identifier s'il y a des doublons 

@@ -12,8 +12,20 @@ Each platform from which challenges are sourced is represented by a separate dir
 
 - app.js: The JavaScript script that contains the solution to the challenge.
 
+- test.js: The JavaScript test for verify the success of the challenge. 
+
 ## Objectives
 
 - Training and Documentation: Documenting my approach to each challenge to track progress and share insights.
 
 - Refactoring Opportunities: Using this repository as a reference to revisit and refine solutions as my JavaScript skills evolve.
+
+## GPT's formatting
+
+I use ChatGPT for formatting readme.md, data.js and test.js, you can acces to this GPT's [here](), for giving the data to him, use this format : 
+
+- Challenge name : 
+- Challenge url : 
+- Challenge description : 
+
+The output was code zone with all the information, you juste need to copy & past before working on solution. 

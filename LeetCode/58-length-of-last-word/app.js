@@ -1,18 +1,15 @@
-// LeetCode challenge 9 : https://leetcode.com/problems/length-of-last-word/
 
-var s = "   fly me   to   the moon  ";
 
-var lengthOfLastWord = function(s) {
+var app = function(s) {
     var splitted = s.split(' ');
     var noWhiteSpace = splitted.filter(function(str) {
         return /\S/.test(str);
     });
     var lastWord = noWhiteSpace.slice(-1).join();
-    return lastWord.length
+    return lastWord.length;
 };
 
-console.log(lengthOfLastWord(s));
-
+module.exports = app;
 
 
 // transformer en array

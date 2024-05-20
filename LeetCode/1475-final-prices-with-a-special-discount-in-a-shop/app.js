@@ -1,6 +1,4 @@
-// LeetCode challenge 2 : https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
-
-var finalPrices = function(prices) {
+var app = function(prices) {
     const result = [];
 
     for (var i = 0; i < prices.length; i ++) {
@@ -15,3 +13,5 @@ var finalPrices = function(prices) {
 }
 return result
 };
+
+module.exports = app ; 

@@ -1,6 +1,6 @@
 // LeetCode challenge 7: https://leetcode.com/problems/palindrome-number/
 
-var isPalindrome = function(x) {
+var app = function(x) {
     var xArray = x.toString().split('');
     var xArrayReverse = xArray.reverse();
     var xArrayReverseNumber = xArrayReverse.map(Number).join('');
@@ -13,4 +13,4 @@ var isPalindrome = function(x) {
     }
 };
 
-console.log(isPalindrome(154));
+module.exports = app ; 
