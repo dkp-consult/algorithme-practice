@@ -1,12 +1,11 @@
-# Challenge Data
+# Challenge URL
+A link to the challenge being solved.
 
-## Challenge Name 
+## Difficulty
+The difficulty level of the challenge.
 
-## Challenge URL 
+## Learning
+Key insights and lessons learned from solving the challenge.
 
-## Challenge Description 
-
-### Examples
-
-### Constraints
-- 
+## Further Study
+Topics or techniques that need further exploration or improvement.
