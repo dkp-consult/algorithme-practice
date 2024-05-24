@@ -1,12 +1,4 @@
-# Challenge Data
+chore: clean up challenge directories
 
-## Challenge Name 
-
-## Challenge URL 
-
-## Challenge Description 
-
-### Examples
-
-### Constraints
-- 
+- Removed content from readme.md files.
+- Deleted unnecessary data.js and test.js files from each challenge directory.

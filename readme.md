@@ -6,28 +6,13 @@ Welcome to the repository where I share my journey of learning and improving alg
 
 Each platform from which challenges are sourced is represented by a separate directory within this repository. Under each platform's directory, individual challenges are organized into their own subdirectories. Each challenge subdirectory contains:
 
-- README.md: Contains the challenge instructions and any relevant background information needed to understand the problem.
-
-- data.js: A JavaScript file containing the data needed to solve the challenge.
-
-- app.js: The JavaScript script that contains the solution to the challenge.
-
-- test.js: The JavaScript test for verify the success of the challenge. 
+- app.js: The JavaScript script with the solution to the challenge.
+- README.md: For notes, reflections, and relevant information.
 
 ## Objectives
 
 - Training and Documentation: Documenting my approach to each challenge to track progress and share insights.
 
 - Refactoring Opportunities: Using this repository as a reference to revisit and refine solutions as my JavaScript skills evolve.
-
-## GPT's formatting
-
-I use ChatGPT for formatting readme.md, data.js and test.js, you can acces to this GPT's [here](https://chatgpt.com/g/g-68v9RmP15-algorithmes-challenge-formater), for giving the data to him, use this format : 
-
-- Challenge name : 
-- Challenge url : 
-- Challenge description : 
-
-The output was code zone with all the information, you juste need to copy & past before working on solution. 
 
 NB : You can use GPT for solve the problems, but it's better for you to learn and try to solve it.
