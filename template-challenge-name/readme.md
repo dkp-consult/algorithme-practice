@@ -1,11 +1,4 @@
-# Challenge URL
-A link to the challenge being solved.
+chore: clean up challenge directories
 
-## Difficulty
-The difficulty level of the challenge.
-
-## Learning
-Key insights and lessons learned from solving the challenge.
-
-## Further Study
-Topics or techniques that need further exploration or improvement.
+- Removed content from readme.md files.
+- Deleted unnecessary data.js and test.js files from each challenge directory.
