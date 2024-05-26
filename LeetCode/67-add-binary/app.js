@@ -1,6 +1,6 @@
 var addBinary = function(a, b) {
-    let num1 = parseInt(a, 2);
-    let num2 = parseInt (b, 2);
+    let num1 = BigInt("0b" + a);
+    let num2 = BigInt ("0b" + b);
 
     let sum = num1 + num2;
 

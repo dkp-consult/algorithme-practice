@@ -10,3 +10,7 @@ Les différentes bases :
 2.	Base 8 (Octale) : Utilise les chiffres de 0 à 7. Exemple : 12 en octal est 10 en décimal.
 3.	Base 10 (Décimale) : Utilise les chiffres de 0 à 9. C’est la base standard utilisée dans la vie quotidienne. Exemple : 10 en décimal est 10.
 4.	Base 16 (Hexadécimale) : Utilise les chiffres de 0 à 9 et les lettres A à F. Exemple : A en hexadécimal est 10 en décimal.
+
+Si les nombres sont très grand, ne pas utiliser BigInt fonctionnera au début, mais génèrera des décallages par la suite, attention. 
+
+Le préfixe 0b est utilisé en JavaScript pour indiquer que la chaîne qui suit est un nombre binaire (base 2). C’est similaire à 0x pour les nombres hexadécimaux (base 16) et 0o pour les nombres octaux (base 8).
